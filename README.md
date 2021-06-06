@@ -21,7 +21,7 @@ Esto nos indica que tenemos la versión 3.9 de Python. Si usted tiene una versi�
 
 Ahora es importante que usted haya verificado la versión de Python que posee, dado que vamos a dirigirnos a la pagina de PYPI para descargar la librería `cx_Freeze`. Ingrese al siguiente enlace [PYPI cx_Freeze](https://pypi.org/project/cx-Freeze/#files) y busque el archivo con un nombre similar a este `cx_Freeze-6.6-cp39-cp39-win_amd64.whl(186.6 kB)`pero que tenga la versión de Python que usted tenga instalada.
 
-**INSERTAR IMAGEN DE PYPI**
+![Screenshot](6.png)
 
 Ahora que tiene descargada la librería, demos instalarla. Para ello, a través del CMD debemos movernos al directorio donde se haya guardado la descarga. Una vez ubicado en esta carpeta, dentro de la consola (CMD) debe ejecutar el siguiente comando 
 `pip install cx_Freeze-6.6-cp39-cp39-win_amd64.whl`
