@@ -34,7 +34,7 @@ Este es el comando para el archivo cuya versión de Python 3.9, pero usted debe 
 
 Con esto ya tenemos la libaría instalada. Ahora vamos a crear el script de Python que se encargara de formar el ejecutable.
 
-### Creando archivo setup.
+### 2. Creando archivo setup.
 
 En nuestro editor de código preferido crearemos un nuevo archivo con nombre: `setup.py` en la misma carpeta que se encuentre el archivo que arranca el programa. Dentro de este archivo pegaremos el siguiente código:
 
@@ -59,7 +59,7 @@ El valor de estos parámetros son los siguientes:
 >`executables`:  Como parámetro de `cx_Freeze.Executable()`pondremos el nombre del archivo Python que arranca nuestro juego. Es el que ustedes ejecutan cuando van a probar el juego.
 
 
-### Creando ejecutable.
+### 3. Creando ejecutable.
 
 Este es nuestro último paso del tutorial, donde finalmente podremos crear el ansiado ejecutable.
 
