@@ -17,6 +17,8 @@ C:\Users\joaqu\OneDrive\Escritorio\Juego INFO073 2021>python -V
 
 C:\Users\joaqu\OneDrive\Escritorio\Juego INFO073 2021>
 ````
+
+![Screenshot](1.png)
 Esto nos indica que tenemos la versión 3.9 de Python. Si usted tiene una versión anterior a la 3.6 le recomiendo que instale una versión más reciente.
 
 Ahora es importante que usted haya verificado la versión de Python que posee, dado que vamos a dirigirnos a la pagina de PYPI para descargar la librería `cx_Freeze`. Ingrese al siguiente enlace [PYPI cx_Freeze](https://pypi.org/project/cx-Freeze/#files) y busque el archivo con un nombre similar a este `cx_Freeze-6.6-cp39-cp39-win_amd64.whl(186.6 kB)`pero que tenga la versión de Python que usted tenga instalada.
@@ -29,8 +31,7 @@ o si usa pip3
 `pip3 install cx_Freeze-6.6-cp39-cp39-win_amd64.whl`
 
 Este es el comando para el archivo cuya versión de Python 3.9, pero usted debe hacerlo con el archivo que acaba de descargar.
-
-**insertat img**
+![Screenshot](2.png)
 
 Con esto ya tenemos la libaría instalada. Ahora vamos a crear el script de Python que se encargara de formar el ejecutable.
 
@@ -66,6 +67,9 @@ Este es nuestro último paso del tutorial, donde finalmente podremos crear el an
 Nos dirigiremos nuevamente al cmd y nos ubicaremos en la carpeta donde se encuentre el archivo que arranca el programa y escribiremos el siguiente comando
 `python setup.py build` y esperamos a que este proceso termine.
 
+![Screenshot](3.png)
+
 Cuando haya terminado nos dirigimos a la carpeta de nuestro Programa (Juego) y veremos una nueva carpeta llamada `build`. Aquí es donde estará guardada nuestro ejecutable. 
 
-**insertar imgs**
+![Screenshot](4.png)
+![Screenshot](5.png)
