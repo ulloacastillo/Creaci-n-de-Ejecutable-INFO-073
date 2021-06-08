@@ -56,7 +56,7 @@ El valor de estos parámetros son los siguientes:
 
 > `name`: String que representa el nombre del programa.
 >`version`: Versión de nuestro programa.
->`options`: En esta sección pondremos las librerías de las que dependen nuestro programa, por ejemplo, pygame. En include_files pondremos una lista con los archivos externos que usaremos en nuestro programa(imagenes, sondidos, etc).
+>`options`: En esta sección pondremos las librerías de las que dependen nuestro programa, por ejemplo, pygame. En include_files pondremos una lista con los archivos externos que usaremos en nuestro programa(imagenes, sonidos, etc).
 >`executables`:  Como parámetro de `cx_Freeze.Executable()`pondremos el nombre del archivo Python que arranca nuestro juego. Es el que ustedes ejecutan cuando van a probar el juego.
 
 
